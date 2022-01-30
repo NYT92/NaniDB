@@ -1,0 +1,29 @@
+{
+  "name": "nanidb",
+  "version": "1.0.0",
+  "description": "A nuxt project generated based on a UIDL document",
+  "author": "teleporthq.io",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/postcss8": "^1.1.3",
+    "@nuxtjs/composition-api": "^0.31.0",
+    "axios": "^0.25.0",
+    "daisyui": "^1.25.4",
+    "debounce": "^1.2.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
