@@ -37,7 +37,7 @@
           </span>
         </span>
         <span class="anime-text10">Trailer :</span>
-        <iframe :src="'https://cornfiles.ml/player.html?&file=' + getAnimeinfo.trailer_url" class="anime-iframe" allowfullscreen></iframe>
+        <iframe :src="'https://player.nscdn.ml/player.html?&file=' + getAnimeinfo.trailer_url" class="anime-iframe" allowfullscreen></iframe>
         <div class="anime-btn-group">
           <a class="anime-button button" :href="getAnimeinfo.url">MyAnimeList</a>
         </div>
